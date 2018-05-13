@@ -1,9 +1,0 @@
-[
-  "fizz_buzz_test.py::test_return_1_with_1_passed_in",
-  "fizz_buzz_test.py::test_return_2_with_2_passed_in",
-  "fizz_buzz_test.py::test_return_fizz_with_3_passed_in",
-  "fizz_buzz_test.py::test_return_buzz_with_5_passed_in",
-  "fizz_buzz_test.py::test_return_fizz_with_multiple_of_3_passed_in",
-  "fizz_buzz_test.py::test_return_buzz_with_multiple_of_5_passed_in",
-  "fizz_buzz_test.py::test_return_fizzbuzz_with_multiple_of_3_and_5_passed_in"
-]
