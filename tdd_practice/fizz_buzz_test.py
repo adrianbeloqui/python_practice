@@ -1,6 +1,4 @@
-import pytest
-
-from fizz_buzz import fizz_buzz
+from tdd_practice.fizz_buzz import fizz_buzz
 
 
 def _check_fizz_buzz(value, expected):
