@@ -22,5 +22,14 @@ def test_get_correct_total_multiple_items(checkout):
     assert checkout.calculate_current_total() == 3
 
 
-def test_can_add_discout(checkout):
+def test_can_apply_dicount_rule(checkout):
     checkout.add_discount("a", 3, 2)
+    checkout.add_item("a")
+    checkout.add_item("a")
+    checkout.add_item("a")
+    assert checkout.calculate_current_total() == 2
+
+
+def test_exception_with_bad_item(checkout):
+    with pytest.raises(NameError):
+        checkout.add_item("c")
